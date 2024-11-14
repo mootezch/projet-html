@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>عالم القراءة</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="parentPage d-flex justify-content-center align-items-center">
+    
+        <div class="container">
+            <div class="navbar">
+               
+               
+            </div>
+            <div class="account-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col2">
+                            <img src="im1.png" width="100%">
+                        </div>
+                        <div class="col2">
+                            <div class="form">
+                                <div class="btn-form">
+                                    <span>تسجيل الدخول</span>
+                                    
+                                    <form action="" onsubmit="event.preventDefault(); verifAllData();">
+                                        البريد الإلكتروني
+                                        <input type="email" name="email" placeholder="Email">
+                                        كلمة المرور
+                                        <input type="password" name="b2" placeholder="password">
+                                        تأكيد كلمة المرور
+                                        <input type="password" name="b3" placeholder="confirm">
+                                        <button type="submit" class="btn">تسجيل</button>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script language="javascript">
+                function verifAllData() {
+                    var p1 = document.getElementsByName('b2')[0].value;
+                    var p2 = document.getElementsByName('b3')[0].value;
+
+                    if (p1 != p2) {
+                        alert("كلمة المرور غير مطابقة للأصلية");
+                    }
+                    else {
+                        alert("تسجيل مقبول");
+                    }
+                }
+            </script>
+
+</body>
+
+</html>

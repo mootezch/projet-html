@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+
+html,
+body {
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Jomhuria", cursive;
+}
+
+.firstPage {
+  background-image: url("./assets/index.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secoundPage {
+  background-image: url("./assets/whoAreYou.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5vw;
+}
+.thirdPage {
+  background-image: url("./assets/stories.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parentPage{
+  background-image: url("./assets/parent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.storyPage{
+  background-image: url("./assets/parent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.watchPage{
+  background-image: url("./assets/parent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-left: 10em;
+  width: 92%;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.274);
+}
+.videosPage{
+  background-image: url("./assets/parent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  direction: rtl;  /* Right to Left */
+}
+.writePage{
+  background-image: url("./assets/parent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  direction: rtl;  /* Right to Left */
+}
+
+.firstPageContainer {
+  font-size: 2em;
+  width: 15em;
+  margin-top: 35%;
+  margin-left: 53%;
+  transform: scale(1.3);
+}
+.thirdPageContainer{
+  padding-bottom:2.5em ;
+}
+.buttonGroup{
+  transform: scale(1.3);
+  width: 28%;
+  padding-bottom: 3em;
+}
+.SmallStory{
+    margin-left: 2em;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 100ms;
+}
+.SmallStory:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+
+}
+.card {
+  width: 20vw;
+  height: 45vh;
+  background-color: rgba(238, 130, 238, 0);
+  border: 5px solid white;
+  border-radius: 25px;
+  transition-timing-function: ease-out;
+  transition: all 100ms;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+}
+.form{
+  padding: 1em;
+  width: 35%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.384);
+  border-radius: 25px;
+  transform: scale(1.05);
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+  padding: 1em;
+  font-size: 5em;
+  width: 40%;
+  height: 80%;
+  border-radius: 25px;
+  transform: scale(1.5);
+  direction: rtl;  /* Right to Left */
+}
+.story{
+  direction: rtl;  /* Right to Left */
+  padding: 1em;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.384);
+  border-radius: 25px;
+}
+.smaller{
+  width: 90%;
+}
+.back{
+  position: absolute; 
+  float: left;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  margin:2em ;
+  transform: scale(1.3);
+}
+
+.bgimg1{
+  background-image: url("./assets/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 0px 0px 10px black;
+}
+
+.bgimg2{
+  background-image: url("./assets/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.2em;
+  color: white;
+  
+  text-shadow: 0px 0px 10px black;
+}
